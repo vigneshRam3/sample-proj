@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App - JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="app-title">
+            <p>Weather</p>
+        </div>
+        <div class="notification"> </div>
+        <div class="weather-container">
+            <div class="search-container">
+	    <input type="text" id="cityName" placeholder="enter city name">
+	    <input type="submit" id="btn" value="search">
+	    <select name="day" id="day">
+    		<option value="">From Now</option>
+    		<option value="A">Tomorrow</option>
+    		<option value="B">DayAfter</option>
+    		<option value="C">3Days</option>
+		<option value="D">4Days</option>
+		<option value="E">5Days</option>
+	    </select> 
+	    </div>
+            <div class="temperature-value">
+                <p><span>C</span></p>
+            </div>
+            <div class="temperature-description">
+                <p> - </p>
+            </div>
+            <div class="location">
+                <p>-</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
